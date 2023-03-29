@@ -12,7 +12,7 @@
         <a href="index.html">Home</a>
         <a href="category.html">Category</a>
         <a href="contact_us.html">Contact Us</a>
-        <a href="get-started"><button class="btn">Get started</button></a>
+        <a href="index.html"><button class="btn">Get started</button></a>
     </div>
 
     <div id="main">
@@ -22,19 +22,35 @@
 <body>
     <div class="bg">
         <div class="box">
-            <img src="colgate logo.png" alt="colgate">
+            <img src="colgatelogo.png" alt="colgate">
         </div>
         <br><br>
         <br><br>
         <br><br>
         <br>
         <h1>WELCOME TO COLGATE</h1>
-        <p style="text-align: left; padding: 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500; font-size: larger;"><img src="toothpaste.png" alt="tooth" style="margin-left: -5px; margin-top: -5%; width: 300px; height: 150px; float: right;">Your No.1 leading toothpaste in the world that helps in fighting cavities, <br> giving you strong white teeth and clean fresh breathe all day.</p>
+        <p style="text-align: left; padding: 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500; font-size: larger; margin-top: -3%;">Your No.1 leading toothpaste in the world that helps in fighting cavities, <br> giving you strong white teeth and clean fresh breathe all day.<br>Colgate toothpaste contains fluoride which are effective at preventing tooth decay.</p><img src="kindpng.png" alt="doc" style="float: right; width: 450px; height: 300px; padding-right: 100px; margin-top: -6%;">
     </div>
 
-    <footer>
-        <a href="about.html">About us</a>
-    </footer>
+    <div>
+        <h2 style="text-align: center;"><u>For Enquiry</u></h2>
+    <form onsubmit="alert('Thanks for your feedback. Your request is now been process.')" style="margin-top: 5%; margin-bottom: 5%; width: 500px; height: 70vh;  background-color: whitesmoke; border-radius: 10px;">
+        <br>
+        <label for="name" style="margin-left: 5%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300; padding: 5px;">Name:</label>
+        <br> <br>
+        <input type="text" placeholder="first and last name" required style="margin-left: 5%; width: 230px; height: 30px; background-color: rgb(214, 210, 210); border-radius: 10px; border: none;">
+        <br> <br>
+        <label for="email" style="margin-left: 5%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300; padding: 5px;">Email:</label>
+        <br> <br>
+        <input type="email" placeholder="email address" required style="margin-left: 5%; width: 230px; height: 30px; background-color: rgb(214, 210, 210); border-radius: 10px; border: none;">
+        <br> <br>
+        <label for="email" style="margin-left: 5%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300; padding: 5px;">Message:</label>
+        <br> <br>
+        <textarea name="comment" id="msg" cols="50" rows="10" required style="margin-left: 5%; font-family: Arial, Helvetica, sans-serif; background-color: rgb(214, 210, 210); border: none; border-radius: 10px;" placeholder="Type your message..."></textarea>
+        <br> <br>
+        <button class="btn2" style="margin-left: 30%; cursor: pointer; width: 200px; height: 35px; border-radius: 50px; background-color: rgb(241, 61, 226); border: none; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: large; color: whitesmoke;">Send</button>
+    </form>
+    </div>
     
     <script>
         /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
