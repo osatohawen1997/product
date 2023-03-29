@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgate</title>
+    <link rel="stylesheet" href="style.css">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="category.html">Category</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="get-started"><button class="btn">Get started</button></a>
+    </div>
+
+    <div id="main">
+      <span style="color: rgb(0, 0, 0); margin-left: 3%; font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+</head>
+<body>
+    <div class="bg">
+        <div class="box">
+            <img src="colgate logo.png" alt="colgate">
+        </div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br>
+        <h1>WELCOME TO COLGATE</h1>
+        <p style="text-align: left; padding: 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 500; font-size: larger;"><img src="toothpaste.png" alt="tooth" style="margin-left: -5px; margin-top: -5%; width: 300px; height: 150px; float: right;">Your No.1 leading toothpaste in the world that helps in fighting cavities, <br> giving you strong white teeth and clean fresh breathe all day.</p>
+    </div>
+
+    <footer>
+        <a href="about.html">About us</a>
+    </footer>
+    
+    <script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("btn").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("btn").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+       }
+   </script>
+</body>
+</html>
